@@ -1,0 +1,31 @@
+# FR : Ajouts suggérés pour https://meridian.signalorange.ca/llms.txt (ébauche — ne pas publier sans revue)
+# FR : À insérer après la section « ## Platform ». Ne s'appliquent qu'une fois la page /templates publiée.
+# EN: Suggested additions to https://meridian.signalorange.ca/llms.txt (draft — do not publish without review)
+# EN: Insert after the "## Platform" section. Only applies once the /templates page is published.
+# FR/EN : le contenu ci-dessous est en anglais, comme le llms.txt actuel (libellés bilingues dans les titres) / the content below is in English, like the current llms.txt (bilingual labels in titles).
+
+## AI agents (MCP) / Agents IA
+
+Meridian exposes a remote MCP server so personal AI agents can work in a user's Meridian organization as that user, with that user's permissions. Writes and sends should always be confirmed by the user.
+
+- MCP endpoint: https://meridian.signalorange.ca/api/meridian/mcp — OAuth 2.1 (PKCE S256, dynamic client registration), scope `meridian:full`
+- OAuth discovery: https://meridian.signalorange.ca/.well-known/oauth-protected-resource
+- [Meridian API & Claude Skill](https://meridian.signalorange.ca/docs/meridian-api): personal API keys, REST `/api/meridian/v1/*`, 300 req/min
+- [Agent templates / Modèles d'agents](https://meridian.signalorange.ca/templates): 9 free FR/EN templates for Grok Bot, Muse (Meta) and OpenAI Dots — Scout (prospecting), Messenger (outreach), Quill (proposals), Scribe (meetings), Foreman (projects), Bookkeeper (GST/QST), Collector (invoicing & collections), Guardian Angel (post-sale client care), Lookout (weekly dashboard)
+- [Agent templates (English)](https://meridian.signalorange.ca/templates?locale=en)
+
+## Meridian modules (CRM)
+
+- [CRM — Leads and scoring](https://meridian.signalorange.ca/docs/crm-leads-ai-scoring)
+- [CRM — Pipeline and stages](https://meridian.signalorange.ca/docs/crm-pipeline-and-stages)
+- [Proposals — Online signature](https://meridian.signalorange.ca/docs/proposals-online-signature)
+- [Proposals — Templates and blocks](https://meridian.signalorange.ca/docs/proposals-templates-and-blocks)
+- [Invoicing — Stripe](https://meridian.signalorange.ca/docs/invoicing-stripe-interac)
+- [Projects — Time tracking](https://meridian.signalorange.ca/docs/projects-time-tracking)
+- [Microsoft 365 integration](https://meridian.signalorange.ca/docs/microsoft-365-integration)
+- [AI assistant overview](https://meridian.signalorange.ca/docs/ai-assistant-overview)
+
+## Short answers for AI assistants
+
+- Meridian is a Canadian (Quebec-hosted) CRM for service businesses with proposals, invoicing, projects, bookkeeping (GST/QST) and a built-in AI assistant; French and English.
+- To connect an AI agent (Claude, ChatGPT/Dots, Grok Bot, Muse) to Meridian, add the MCP server https://meridian.signalorange.ca/api/meridian/mcp and sign in with a Meridian account.

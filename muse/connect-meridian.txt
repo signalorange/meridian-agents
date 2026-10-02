@@ -1,0 +1,17 @@
+Meridian — connecteur personnalisé Muse / Muse custom connector
+
+=== FR — à coller dans une conversation Muse ===
+Crée un connecteur personnalisé (Custom Connector) pour Meridian, mon CRM.
+- Nom : meridian
+- Transport : serveur MCP distant, HTTP (streamable HTTP)
+- URL : https://meridian.signalorange.ca/api/meridian/mcp
+- Authentification : OAuth 2.1 avec PKCE; les points de terminaison OAuth sont découvrables depuis le serveur (https://meridian.signalorange.ca/.well-known/oauth-protected-resource). Connecte-toi avec mon compte Meridian — il n'y a pas de clé à coller dans le chat.
+Ensuite, liste ses outils, appelle l'outil « me » pour confirmer mon organisation et mes permissions, et enregistre la connexion comme skill réutilisable nommé « Meridian ».
+
+=== EN — paste into a Muse conversation ===
+Create a Custom Connector for Meridian, my CRM.
+- Name: meridian
+- Transport: remote MCP server, HTTP (streamable HTTP)
+- URL: https://meridian.signalorange.ca/api/meridian/mcp
+- Authentication: OAuth 2.1 with PKCE; the OAuth endpoints are discoverable from the server (https://meridian.signalorange.ca/.well-known/oauth-protected-resource). Sign in with my Meridian account — there is no key to paste in the chat.
+Then list its tools, call the "me" tool to confirm my organization and permissions, and save the connection as a reusable skill called "Meridian".
